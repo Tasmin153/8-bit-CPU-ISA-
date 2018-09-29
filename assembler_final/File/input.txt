@@ -1,0 +1,9 @@
+add  $t1, $s1
+sub  $s1, $t1
+bne $s2, 4
+lw  $t1, 2
+sw  $s1, 2
+sll $s2, 3
+slti $s1, 9
+j 3
+disp $s1, 4

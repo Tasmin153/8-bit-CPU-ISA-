@@ -1,0 +1,7 @@
+sll	001
+lw	010
+sw	011
+bne	100
+slti	101
+j	110
+disp 111

@@ -1,0 +1,9 @@
+Add $rd, $rs
+Sub $rd,$rs
+Sll $rd,2
+Lw $rd,offset
+Sw $rd,offset
+Bne $rd,offset
+Slt $rd,$rs
+J immediate
+Disp $rd ,immediate
